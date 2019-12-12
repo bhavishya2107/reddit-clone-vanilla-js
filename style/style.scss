@@ -1,0 +1,171 @@
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-size: 16px;
+  background: #dae0e6;
+  header {
+    display: flex;
+    height: 4rem;
+    z-index: 1000;
+    // justify-content: space-between;
+    background: white;
+    position: fixed;
+    width: 100%;
+  }
+  .hero-div {
+    height: 20rem;
+    background-image: url(../assets/hero-image-nike.jpg);
+    background-position: center;
+    background-size: 60%;
+    padding: 0rem 2rem;
+  }
+  .main-content-div {
+    background: #dae0e6;
+    text-align: center;
+    height: 200vh;
+    position: relative;
+    left: 25rem;
+    .input-search {
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-evenly;
+      padding: 10px 0 0 0;
+      width: 640px;
+      height: 50px;
+      background: #fff;
+      border-radius: 0.2rem;
+      margin: 20px auto;
+      a {
+        position: relative;
+        top: 10px;
+        right: 5px;
+        text-decoration: none;
+        color: grey;
+        padding: 5px;
+      }
+      a:hover {
+        background: rgba($color: #b3aeae, $alpha: 0.4);
+      }
+      #input-main {
+        width: 538px;
+        height: 38px;
+        background: #f6f7f8;
+        outline: none;
+        border: none;
+        border-radius: 3px;
+        font-size: 1rem;
+      }
+      #input-main:hover {
+        border: 1px #0079d3 solid;
+        background: white;
+      }
+    }
+  }
+  .cards {
+    margin: 0.8rem auto;
+    border: 0px solid white;
+    border-radius: 50px;
+    display: flex;
+    width: 640px;
+    word-wrap: break-word;
+    .cards-content {
+      display: flex;
+      flex-direction: column;  
+      width: 610px;
+      background: white;
+      padding: 10px;
+      line-height: 1.5rem;
+        text-align: justify;
+      .title{
+          text-align: left;
+          font-size: 1.5rem;
+          font-weight: 400;
+          line-height: 2rem;
+      }
+      p {
+        text-align: justify;
+      }
+    }
+    .cards-aside {
+      width: 50px;
+      display: flex;
+      flex-direction: column;
+      margin: 0 auto;
+      background: #f8f9fa;
+    }
+  }
+}
+
+.posted-by {
+    font-weight: 100;
+    font-size: 14px;
+    color: grey;
+}
+
+.search {
+    position: absolute;
+    opacity: 0.5;
+    left:1rem;
+    top: 0.3;
+    width:1rem;
+    height: 1rem;
+}
+
+.input_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:40%;
+    border:none;
+    background-color: #F6F7F8;
+    border:1px solid rgb(236, 234, 234);
+    border-radius: .3rem;
+    padding: 0 1rem ;
+    margin-bottom:.2rem;
+    height:2rem;
+    text-align: center;
+    position: relative;
+}
+
+.input_container:hover {
+    padding: 0 1rem ;
+    height:2rem;
+    border:1px solid rgba(44, 47, 238, 0.3);
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.input {
+    background-color: transparent;
+    width:85%;
+    color: rgb(109, 108, 108);
+    padding: 0.4rem 0;
+    border: none;
+    outline: none;
+    font-weight: 100;
+    font-size: 1rem;
+}
+
+.input::placeholder {
+    font-size: 0.9rem;
+}
+
+.flex-div {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    // left: 33rem;
+    // top: 10rem;
+}
+
+.grid {
+    width: 200px;
+    // position: relative;
+    // left: 30rem;
+    // top: 1.2rem;
+    // position: sticky;
+    // top: 0;
+    // bottom: 0;
+    
+}

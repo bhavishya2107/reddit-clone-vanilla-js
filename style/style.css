@@ -1,0 +1,219 @@
+body {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-size: 16px;
+  background: #dae0e6;
+}
+
+body header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 4rem;
+  z-index: 1000;
+  background: white;
+  position: fixed;
+  width: 100%;
+}
+
+body .hero-div {
+  height: 20rem;
+  background-image: url(../assets/hero-image-nike.jpg);
+  background-position: center;
+  background-size: 60%;
+  padding: 0rem 2rem;
+}
+
+body .main-content-div {
+  background: #dae0e6;
+  text-align: center;
+  height: 200vh;
+  position: relative;
+  left: 25rem;
+}
+
+body .main-content-div .input-search {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  padding: 10px 0 0 0;
+  width: 640px;
+  height: 50px;
+  background: #fff;
+  border-radius: 0.2rem;
+  margin: 20px auto;
+}
+
+body .main-content-div .input-search a {
+  position: relative;
+  top: 10px;
+  right: 5px;
+  text-decoration: none;
+  color: grey;
+  padding: 5px;
+}
+
+body .main-content-div .input-search a:hover {
+  background: rgba(179, 174, 174, 0.4);
+}
+
+body .main-content-div .input-search #input-main {
+  width: 538px;
+  height: 38px;
+  background: #f6f7f8;
+  outline: none;
+  border: none;
+  border-radius: 3px;
+  font-size: 1rem;
+}
+
+body .main-content-div .input-search #input-main:hover {
+  border: 1px #0079d3 solid;
+  background: white;
+}
+
+body .cards {
+  margin: 0.8rem auto;
+  border: 0px solid white;
+  border-radius: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 640px;
+  word-wrap: break-word;
+}
+
+body .cards .cards-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 610px;
+  background: white;
+  padding: 10px;
+  line-height: 1.5rem;
+  text-align: justify;
+}
+
+body .cards .cards-content .title {
+  text-align: left;
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 2rem;
+}
+
+body .cards .cards-content p {
+  text-align: justify;
+}
+
+body .cards .cards-aside {
+  width: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 0 auto;
+  background: #f8f9fa;
+}
+
+.posted-by {
+  font-weight: 100;
+  font-size: 14px;
+  color: grey;
+}
+
+.search {
+  position: absolute;
+  opacity: 0.5;
+  left: 1rem;
+  top: 0.3;
+  width: 1rem;
+  height: 1rem;
+}
+
+.input_container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 40%;
+  border: none;
+  background-color: #F6F7F8;
+  border: 1px solid #eceaea;
+  border-radius: .3rem;
+  padding: 0 1rem;
+  margin-bottom: .2rem;
+  height: 2rem;
+  text-align: center;
+  position: relative;
+}
+
+.input_container:hover {
+  padding: 0 1rem;
+  height: 2rem;
+  border: 1px solid rgba(44, 47, 238, 0.3);
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.input {
+  background-color: transparent;
+  width: 85%;
+  color: #6d6c6c;
+  padding: 0.4rem 0;
+  border: none;
+  outline: none;
+  font-weight: 100;
+  font-size: 1rem;
+}
+
+.input::-webkit-input-placeholder {
+  font-size: 0.9rem;
+}
+
+.input:-ms-input-placeholder {
+  font-size: 0.9rem;
+}
+
+.input::-ms-input-placeholder {
+  font-size: 0.9rem;
+}
+
+.input::placeholder {
+  font-size: 0.9rem;
+}
+
+.flex-div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  position: relative;
+}
+
+.grid {
+  width: 200px;
+}
+/*# sourceMappingURL=style.css.map */
